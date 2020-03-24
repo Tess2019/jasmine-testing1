@@ -14,7 +14,7 @@ describe ("Calculator", function() {
             expect(calc.value).toBe(26);
         });
         it("should return an error if we don't supply two numbers", function() {
-            SpyOn (window, "alert");
+            spyOn (window, "alert");
             calc.add("Hitchhikers");
             expect(window.alert).toHaveBeenCalledWith("Error!");
         });
