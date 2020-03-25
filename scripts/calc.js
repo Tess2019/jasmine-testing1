@@ -8,4 +8,13 @@
 }else if (age <18 && >= 14) {
     return  "Drink Coke";
 }
+}else if (age <21 && >= 18) {
+    return  "Drink Beer";
+}
+}else if (age <130 ) {
+    return  "Drink Whisky";
+}
+else {
+    return "Sorry. I can’t tell what drink because that age is incorrect!"
+}
 };
